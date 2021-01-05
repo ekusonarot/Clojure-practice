@@ -2,7 +2,7 @@
 
 Clojureの日本語ガイドで学習したことをまとめていく．
 
-https://ayato-p.github.io/
+https://ayato-p.github.io/clojure-beginner/
 
 **使用ライブラリ一覧**
 
