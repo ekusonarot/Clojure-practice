@@ -20,7 +20,7 @@ https://ayato-p.github.io/clojure-beginner/
 
 * todo-clj/src/todo_clj/core.clj
 
-*26行目の@:*
+**26行目の@:**
 
 ```
 (when-not @server
@@ -44,7 +44,7 @@ nil
 ```
 
 
-*27行目の#'app(appはハンドラ):*
+**27行目の#'app(appはハンドラ):**
 
 ```
     (reset! server (server/run-jetty #'app {:port 3000 :join? false}))))
