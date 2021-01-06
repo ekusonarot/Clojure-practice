@@ -18,7 +18,7 @@ https://ayato-p.github.io/clojure-beginner/
 
 ここでは，サンプルコードで見つけた疑問点をまとめる．
 
-* **todo-clj/src/todo_clj/core.clj**
+### todo-clj/src/todo_clj/core.clj**
 
 **26行目の@:**
 
