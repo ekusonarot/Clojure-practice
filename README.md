@@ -18,7 +18,7 @@ https://ayato-p.github.io/clojure-beginner/
 
 ここでは，サンプルコードで見つけた疑問点をまとめる．
 
-### todo-clj/src/todo_clj/core.clj**
+### todo-clj/src/todo_clj/core.clj
 
 **26行目の@:**
 
@@ -53,3 +53,26 @@ nil
 シンボルを直接渡すと`app`を束縛していたオブジェクトが直接`run-jetty`にわたってしまい，後から変更ができない．
 varオブジェクトを渡せば，`run-jetty`はvarに格納されたオブジェクトをその都度参照するので，`app`の再評価だけで後から行った変更が反映される．
 
+### todo-clj/src/todo_clj/handler/main.clj
+
+### todo-clj/src/todo_clj/handler/todo.clj
+
+### todo-clj/src/todo_clj/view/todo.clj
+
+**7行目~@(for ...**
+
+```
+~@(for [{:keys [title]} todo-list]
+              [:li title])
+```
+
+`~@`の部分についてはよくわからない，`todo-list`の`:title`キーの値を順番に取り出し，
+```
+[:li title]
+[:li title] ...
+```
+というように展開していることが分かる．
+
+
+
+### todo-clj/src/todo_clj/middleware.clj
