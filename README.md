@@ -16,17 +16,4 @@ https://ayato-p.github.io/clojure-beginner/
 
 ## ソースコード
 
-* todo-clj/src/todo_clj/core.clj
 
-```
-(ns todo-clj.core
-  (:require ...
-            [ring.adapter.jetty :as server]
-            ...))
-
-(defonce server (atom nil))
-
-(defn start-server []
-  (when-not @server
-    (reset! server (server/run-jetty #'app {:port 3000 :join? false}))))
-```
