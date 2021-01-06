@@ -1,20 +1,20 @@
-***Clojure-practice***
+# Clojure-practice
 
 Clojureの日本語ガイドで学習したことをまとめていく．
 
 https://ayato-p.github.io/clojure-beginner/
 
 
-**使用ライブラリ一覧**
+## 使用ライブラリ一覧
 
-#Compojure: ルーティング機能
+_ Compojure: ルーティング機能
 
-#Ring: WebサーバとWebアプリケーションやフレームワーク間のインターフェースを定めたもの
+_ Ring: WebサーバとWebアプリケーションやフレームワーク間のインターフェースを定めたもの
 
-#environ: 環境変数を取得する
+_ environ: 環境変数を取得する
 
 
-**ソースコード**
+## ソースコード
 
-#todo-clj/src/todo_clj/core.clj
+_ todo-clj/src/todo_clj/core.clj
 
