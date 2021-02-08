@@ -26,7 +26,7 @@ https://ayato-p.github.io/clojure-beginner/
 (when-not @server
 ```
 
-Clojureの機能としてrefというものがある．refの実態を取得するのに`@varname`という書式を使用する．
+Clojureの機能としてref, atomというものがある．refやatomの実態を取得するのに`@varname`という書式を使用する．
 `@`はマクロ文字で`(deref varname)`と展開される．
 
 ```
